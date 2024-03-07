@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C96613492B9A28B6000FA720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96613482B9A28B6000FA720 /* AppDelegate.swift */; };
+		C966134B2B9A28B6000FA720 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966134A2B9A28B6000FA720 /* SceneDelegate.swift */; };
+		C966134D2B9A28B6000FA720 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966134C2B9A28B6000FA720 /* ViewController.swift */; };
+		C96613502B9A28B6000FA720 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C966134F2B9A28B6000FA720 /* Base */; };
+		C96613522B9A28B7000FA720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96613512B9A28B7000FA720 /* Assets.xcassets */; };
+		C96613552B9A28B7000FA720 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C96613542B9A28B7000FA720 /* Base */; };
+		C96613602B9A28B8000FA720 /* Journey_JigsawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966135F2B9A28B8000FA720 /* Journey_JigsawTests.swift */; };
+		C966136A2B9A28B8000FA720 /* Journey_JigsawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96613692B9A28B8000FA720 /* Journey_JigsawUITests.swift */; };
+		C966136C2B9A28B8000FA720 /* Journey_JigsawUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966136B2B9A28B8000FA720 /* Journey_JigsawUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C966135C2B9A28B8000FA720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C966133D2B9A28B6000FA720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C96613442B9A28B6000FA720;
+			remoteInfo = "Journey Jigsaw";
+		};
+		C96613662B9A28B8000FA720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C966133D2B9A28B6000FA720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C96613442B9A28B6000FA720;
+			remoteInfo = "Journey Jigsaw";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C96613452B9A28B6000FA720 /* Journey Jigsaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journey Jigsaw.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96613482B9A28B6000FA720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C966134A2B9A28B6000FA720 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C966134C2B9A28B6000FA720 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C966134F2B9A28B6000FA720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C96613512B9A28B7000FA720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C96613542B9A28B7000FA720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C96613562B9A28B7000FA720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C966135B2B9A28B8000FA720 /* Journey JigsawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Journey JigsawTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C966135F2B9A28B8000FA720 /* Journey_JigsawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey_JigsawTests.swift; sourceTree = "<group>"; };
+		C96613652B9A28B8000FA720 /* Journey JigsawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Journey JigsawUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96613692B9A28B8000FA720 /* Journey_JigsawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey_JigsawUITests.swift; sourceTree = "<group>"; };
+		C966136B2B9A28B8000FA720 /* Journey_JigsawUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey_JigsawUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C96613422B9A28B6000FA720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96613582B9A28B8000FA720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96613622B9A28B8000FA720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C966133C2B9A28B6000FA720 = {
+			isa = PBXGroup;
+			children = (
+				C96613472B9A28B6000FA720 /* Journey Jigsaw */,
+				C966135E2B9A28B8000FA720 /* Journey JigsawTests */,
+				C96613682B9A28B8000FA720 /* Journey JigsawUITests */,
+				C96613462B9A28B6000FA720 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C96613462B9A28B6000FA720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C96613452B9A28B6000FA720 /* Journey Jigsaw.app */,
+				C966135B2B9A28B8000FA720 /* Journey JigsawTests.xctest */,
+				C96613652B9A28B8000FA720 /* Journey JigsawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C96613472B9A28B6000FA720 /* Journey Jigsaw */ = {
+			isa = PBXGroup;
+			children = (
+				C96613482B9A28B6000FA720 /* AppDelegate.swift */,
+				C966134A2B9A28B6000FA720 /* SceneDelegate.swift */,
+				C966134C2B9A28B6000FA720 /* ViewController.swift */,
+				C966134E2B9A28B6000FA720 /* Main.storyboard */,
+				C96613512B9A28B7000FA720 /* Assets.xcassets */,
+				C96613532B9A28B7000FA720 /* LaunchScreen.storyboard */,
+				C96613562B9A28B7000FA720 /* Info.plist */,
+			);
+			path = "Journey Jigsaw";
+			sourceTree = "<group>";
+		};
+		C966135E2B9A28B8000FA720 /* Journey JigsawTests */ = {
+			isa = PBXGroup;
+			children = (
+				C966135F2B9A28B8000FA720 /* Journey_JigsawTests.swift */,
+			);
+			path = "Journey JigsawTests";
+			sourceTree = "<group>";
+		};
+		C96613682B9A28B8000FA720 /* Journey JigsawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C96613692B9A28B8000FA720 /* Journey_JigsawUITests.swift */,
+				C966136B2B9A28B8000FA720 /* Journey_JigsawUITestsLaunchTests.swift */,
+			);
+			path = "Journey JigsawUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C96613442B9A28B6000FA720 /* Journey Jigsaw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C966136F2B9A28B8000FA720 /* Build configuration list for PBXNativeTarget "Journey Jigsaw" */;
+			buildPhases = (
+				C96613412B9A28B6000FA720 /* Sources */,
+				C96613422B9A28B6000FA720 /* Frameworks */,
+				C96613432B9A28B6000FA720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Journey Jigsaw";
+			productName = "Journey Jigsaw";
+			productReference = C96613452B9A28B6000FA720 /* Journey Jigsaw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C966135A2B9A28B8000FA720 /* Journey JigsawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96613722B9A28B8000FA720 /* Build configuration list for PBXNativeTarget "Journey JigsawTests" */;
+			buildPhases = (
+				C96613572B9A28B8000FA720 /* Sources */,
+				C96613582B9A28B8000FA720 /* Frameworks */,
+				C96613592B9A28B8000FA720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C966135D2B9A28B8000FA720 /* PBXTargetDependency */,
+			);
+			name = "Journey JigsawTests";
+			productName = "Journey JigsawTests";
+			productReference = C966135B2B9A28B8000FA720 /* Journey JigsawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C96613642B9A28B8000FA720 /* Journey JigsawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96613752B9A28B8000FA720 /* Build configuration list for PBXNativeTarget "Journey JigsawUITests" */;
+			buildPhases = (
+				C96613612B9A28B8000FA720 /* Sources */,
+				C96613622B9A28B8000FA720 /* Frameworks */,
+				C96613632B9A28B8000FA720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C96613672B9A28B8000FA720 /* PBXTargetDependency */,
+			);
+			name = "Journey JigsawUITests";
+			productName = "Journey JigsawUITests";
+			productReference = C96613652B9A28B8000FA720 /* Journey JigsawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C966133D2B9A28B6000FA720 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C96613442B9A28B6000FA720 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C966135A2B9A28B8000FA720 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C96613442B9A28B6000FA720;
+					};
+					C96613642B9A28B8000FA720 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C96613442B9A28B6000FA720;
+					};
+				};
+			};
+			buildConfigurationList = C96613402B9A28B6000FA720 /* Build configuration list for PBXProject "Journey Jigsaw" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C966133C2B9A28B6000FA720;
+			productRefGroup = C96613462B9A28B6000FA720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C96613442B9A28B6000FA720 /* Journey Jigsaw */,
+				C966135A2B9A28B8000FA720 /* Journey JigsawTests */,
+				C96613642B9A28B8000FA720 /* Journey JigsawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C96613432B9A28B6000FA720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96613522B9A28B7000FA720 /* Assets.xcassets in Resources */,
+				C96613552B9A28B7000FA720 /* Base in Resources */,
+				C96613502B9A28B6000FA720 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96613592B9A28B8000FA720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96613632B9A28B8000FA720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C96613412B9A28B6000FA720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C966134D2B9A28B6000FA720 /* ViewController.swift in Sources */,
+				C96613492B9A28B6000FA720 /* AppDelegate.swift in Sources */,
+				C966134B2B9A28B6000FA720 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96613572B9A28B8000FA720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96613602B9A28B8000FA720 /* Journey_JigsawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96613612B9A28B8000FA720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C966136C2B9A28B8000FA720 /* Journey_JigsawUITestsLaunchTests.swift in Sources */,
+				C966136A2B9A28B8000FA720 /* Journey_JigsawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C966135D2B9A28B8000FA720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C96613442B9A28B6000FA720 /* Journey Jigsaw */;
+			targetProxy = C966135C2B9A28B8000FA720 /* PBXContainerItemProxy */;
+		};
+		C96613672B9A28B8000FA720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C96613442B9A28B6000FA720 /* Journey Jigsaw */;
+			targetProxy = C96613662B9A28B8000FA720 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C966134E2B9A28B6000FA720 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C966134F2B9A28B6000FA720 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C96613532B9A28B7000FA720 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96613542B9A28B7000FA720 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C966136D2B9A28B8000FA720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C966136E2B9A28B8000FA720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C96613702B9A28B8000FA720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Journey Jigsaw/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.Journey-Jigsaw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C96613712B9A28B8000FA720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Journey Jigsaw/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.Journey-Jigsaw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C96613732B9A28B8000FA720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.Journey-JigsawTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Journey Jigsaw.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Journey Jigsaw";
+			};
+			name = Debug;
+		};
+		C96613742B9A28B8000FA720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.Journey-JigsawTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Journey Jigsaw.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Journey Jigsaw";
+			};
+			name = Release;
+		};
+		C96613762B9A28B8000FA720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.Journey-JigsawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Journey Jigsaw";
+			};
+			name = Debug;
+		};
+		C96613772B9A28B8000FA720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.Journey-JigsawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Journey Jigsaw";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C96613402B9A28B6000FA720 /* Build configuration list for PBXProject "Journey Jigsaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C966136D2B9A28B8000FA720 /* Debug */,
+				C966136E2B9A28B8000FA720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C966136F2B9A28B8000FA720 /* Build configuration list for PBXNativeTarget "Journey Jigsaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96613702B9A28B8000FA720 /* Debug */,
+				C96613712B9A28B8000FA720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96613722B9A28B8000FA720 /* Build configuration list for PBXNativeTarget "Journey JigsawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96613732B9A28B8000FA720 /* Debug */,
+				C96613742B9A28B8000FA720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96613752B9A28B8000FA720 /* Build configuration list for PBXNativeTarget "Journey JigsawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96613762B9A28B8000FA720 /* Debug */,
+				C96613772B9A28B8000FA720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C966133D2B9A28B6000FA720 /* Project object */;
+}
